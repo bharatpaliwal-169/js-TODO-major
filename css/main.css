@@ -17,6 +17,7 @@ header{
 .banner-center{
   height: 100vh;
   color:#c5efff;
+  /* color: #414146; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +54,7 @@ header{
 /* main */
 
 main{
-  background-image: url('../imgs/bg-try.jpeg');
+  background-image: url('../imgs/test-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +62,7 @@ main{
   
 }
 body{
-  background-image: url('../imgs/bg-try.jpeg');
+  background-image: url('../imgs/test-2.jpg');
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
@@ -82,10 +83,10 @@ input{
 
 .card{
   top: 15%;
-  border-radius: 10px;
+  border-radius: 20px;
   /* background: #333239; */
-  box-shadow:  2px 3px 6px #9795a2, 
-              -2px -3px 6px #a7a5b3;
+  box-shadow:  12px 13px 26px #9795a2, 
+              -12px -13px 26px #a7a5b3;
   color: #f1f1f1;
 }
 
@@ -110,7 +111,8 @@ input{
   background-color: gray;
 }
 .grocery-item:hover{
-  background-color: #555;
+  background-color: #15191C;
+  cursor: pointer;
 }
 .grocery-item:active{
   background-color: #555;
@@ -130,4 +132,12 @@ input{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+@media (max-width:600px){
+  .grocery-item:hover{
+    background-color: none;
+  }
+  .grocery-item:active{
+    background-color: #15191C;
+  }
 }

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap');
+
+body{
+  font-family: 'Texturina', serif;
+  background-color: #232c34;
+  color: #f1f1f1;
+}
+h1{
+  font-weight: bold;
+}
+.dropdown-list{
+  background-color: antiquewhite;
+}
+.dropdown-item:hover{
+  background-color: gray;
+  color: #f1f1f1;
+}
+
+
+
+
+
+
+.btn-facebook {
+  padding: 13px 14px; color: #4267B2;
+  text-decoration: none; text-transform: uppercase;
+  transition: 0.5s ; letter-spacing: 4px;
+  border: 1px solid #4267B2; outline: 0;
+  border-radius: 5px; font-weight: bold;
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-facebook:hover{
+  background: #4267B2; color: #fff;
+  box-shadow: 0 0 5px #4267B2, 0 0 5px #4267B2, 0 0 5px #4267B2, 0 0 10px #4267B2
+}
+.btn-linkedin {
+  padding: 12px 12px; color: #2867B2;
+  text-decoration: none; text-transform: uppercase;
+  transition: 0.5s ; letter-spacing: 4px;
+  border: 1px solid #2867B2; outline: 0;
+  border-radius: 5px; font-weight: bold;
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-linkedin:hover{
+  background: #2867B2; color: #fff;
+  box-shadow: 0 0 5px #2867B2, 0 0 5px #2867B2, 0 0 5px #2867B2, 0 0 10px #2867B2
+}
+.btn-twitter {
+  padding: 12px 12px; color: #1DA1F2;
+  text-decoration: none; text-transform: uppercase;
+  transition: 0.5s ; letter-spacing: 4px;
+  border: 1px solid #1DA1F2; outline: 0;
+  border-radius: 5px; font-weight: bold;
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-twitter:hover{
+  background: #1DA1F2; color: #fff;
+  box-shadow: 0 0 5px #1DA1F2, 0 0 5px #1DA1F2, 0 0 5px #1DA1F2, 0 0 10px #1DA1F2
+}
+.btn-instagram {
+  padding: 12px 12px; color: #FF6EC7;
+  text-decoration: none; text-transform: uppercase;
+  transition: 0.5s ; letter-spacing: 4px;
+  border: 1px solid #FF6EC7; outline: 0;
+  border-radius: 5px; font-weight: bold;
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-instagram:hover{
+  background: #FF6EC7; color: #fff;
+  box-shadow: 0 0 5px #FF6EC7, 0 0 5px #FF6EC7, 0 0 5px #FF6EC7, 0 0 10px #FF6EC7
+}
+
+
